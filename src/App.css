@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-header nav {
+  margin-top: 10px;
+}
+
+.App-header nav a {
+  color: #61dafb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.App-header nav a:hover {
+  text-decoration: underline;
+}
+
+.featured-section, .new-releases-section {
+  padding: 50px 20px;
+}
+
+h2 {
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+.game-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  background-color: #282c34;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.game-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.game-card h3 {
+  color: #61dafb;
+}
+
+.App-footer {
+  background-color: #20232a;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.download-button {
+  background-color: #61dafb;
+  color: #20232a;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #4a9fc9;
+}
